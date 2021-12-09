@@ -57,7 +57,7 @@ export function PokemonFinder() {
           <TextInput
             value={input}
             onChangeText={handleInputChange}
-            placeholder={"hola soy un placeholder"}
+            placeholder={"Escribe el nombre de tu pokemon"}
             style={styles.input}
           />
           <Button
